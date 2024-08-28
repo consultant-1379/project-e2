@@ -1,0 +1,33 @@
+/* style goes here */
+:host{
+  display: block;
+}
+
+eui-layout-v0-tile {
+  margin: auto;
+  padding: 50px;
+  min-height: 500px;
+}
+
+.main-q{
+  margin-left: 20%;
+  width: 79%;
+  border-left: 1px solid var(--wizard-footer-line,#c8c8c8);
+  display: none;
+
+}
+
+.lead-q{
+  margin: auto;
+  width: 20%;
+}
+
+eui-base-v0-button {
+  margin-bottom: 20px;
+  outline: none;
+}
+
+.answer-text{
+  overflow: visible;
+  white-space: normal;
+}

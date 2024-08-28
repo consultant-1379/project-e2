@@ -1,0 +1,34 @@
+/* style goes here */
+:host{
+  display: block;
+}
+
+.information-area{
+  margin: auto;
+  width: 80%;
+  text-align: center;
+}
+
+.table-area{
+  margin: auto;
+  text-align: center;
+}
+
+.graph-table{
+  border-spacing: 0;
+  margin: auto;
+  border-collapse:collapse;
+}
+
+.graph-table td, th{
+  width: 150px;
+  height: 55px;
+  padding: 0px;
+  border: 1px black solid;
+}
+
+.table-head{
+  background-color: white;
+  font-weight: bold;
+}
+

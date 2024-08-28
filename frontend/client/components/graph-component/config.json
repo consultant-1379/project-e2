@@ -1,0 +1,8 @@
+{
+  "script":"graph-component/GraphComponent",
+  "id":"GraphComponent",
+  "data": {},
+  "dependencies":{
+    "@eui/lit-component":"0.12.x"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "script":"questionaire-component/QuestionaireComponent",
+  "id":"QuestionaireComponent",
+  "data": {},
+  "dependencies":{
+    "@eui/lit-component":"0.12.x"
+  }
+}

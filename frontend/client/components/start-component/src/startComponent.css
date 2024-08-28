@@ -1,0 +1,19 @@
+/* style goes here */
+:host{
+  display: block;
+}
+
+.information-area{
+  margin: auto;
+  width: 50%;
+  margin-top: 10%;
+  text-align: center;
+}
+
+eui-base-v0-button{
+  width: 160px;
+}
+
+.btn-layout{
+  margin: auto;
+}

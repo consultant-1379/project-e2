@@ -1,0 +1,8 @@
+{
+  "script":"results-component/ResultsComponent",
+  "id":"ResultsComponent",
+  "data": {},
+  "dependencies":{
+    "@eui/lit-component":"0.12.x"
+  }
+}

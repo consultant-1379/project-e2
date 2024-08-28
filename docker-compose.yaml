@@ -1,0 +1,20 @@
+version: '3'
+services:
+  mongo:
+    image: amd64/mongo:4.4
+  spring-boot:
+    image: test/backend
+    depends_on:
+      - mongo
+    environment:
+      - spring.data.mongodb.uri=mongodb://mongo:27017/test
+    ports:
+      - "9090:9090"
+    #command: ["java", "-jar", "/app.jar"]
+  frontend:
+    image: test/frontend
+    depends_on:
+      - spring-boot
+    ports:
+      - "8080:8080"
+    command: sh -c "npm install && npm start"

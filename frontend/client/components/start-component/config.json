@@ -1,0 +1,8 @@
+{
+  "script":"start-component/StartComponent",
+  "id":"StartComponent",
+  "data": {},
+  "dependencies":{
+    "@eui/lit-component":"0.12.x"
+  }
+}
